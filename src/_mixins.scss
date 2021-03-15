@@ -1,0 +1,43 @@
+@mixin footerStrut {
+    width: 100%;
+    height: 120px;
+    background: $background-colorTwo;
+    text-align: center;
+    color: $white;
+    padding-top: 50px;
+
+}
+
+@mixin greyBar {
+    width: 100%;
+    height: 90px;
+    background: $background-color;
+    clear: both;
+    padding-top: 30px;
+}
+@mixin socialMedia {
+    margin: 0 auto;
+    width: 165px;
+}
+@mixin socialAnchor {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-indent: -9999px;
+}
+@mixin divStrut {
+    float: left;
+    margin-right: 5px;
+}
+@mixin socialImageOne {
+    background: url('$socialMedia') 0 0;
+}
+@mixin socialImageTwo {
+    background: url('$socialMedia') -38px 0;
+}
+@mixin socialImageThree {
+    background: url('$socialMedia') -76px 0;
+}
+@mixin socialImageFour {
+    background: url('$socialMedia') -114px 0;
+}
