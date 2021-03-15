@@ -29,15 +29,21 @@
     float: left;
     margin-right: 5px;
 }
-@mixin socialImageOne {
-    background: url('$socialMedia') 0 0;
+@mixin socialImageOne($image) {
+    background: url($image) 0 0;
 }
-@mixin socialImageTwo {
-    background: url('$socialMedia') -38px 0;
+@mixin socialImageTwo($image) {
+    background: url($image) -38px 0;
 }
-@mixin socialImageThree {
-    background: url('$socialMedia') -76px 0;
+@mixin socialImageThree($image) {
+    background: url($image) -76px 0;
 }
-@mixin socialImageFour {
-    background: url('$socialMedia') -114px 0;
+@mixin socialImageFour($image) {
+    background: url($image) -114px 0;
+}
+@mixin bodyImage($image) {
+    background:url($image);
+    background-repeat: repeat-x;
+    background-color: $white;
+    margin:0;
 }

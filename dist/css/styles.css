@@ -2,7 +2,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1em;
   line-height: 2em;
-  background: url("/images/bg.gif") #FFF repeat-x;
+  background: url("/images/bg.gif");
+  background-repeat: repeat-x;
+  background-color: #FFF;
   margin: 0; }
 
 main {
@@ -53,11 +55,11 @@ footer {
     width: 36px;
     height: 36px;
     text-indent: -9999px; }
-  .social-media .one {
-    background: url("$socialMedia") 0 0; }
-  .social-media .two {
-    background: url("$socialMedia") -38px 0; }
-  .social-media .three {
-    background: url("$socialMedia") -76px 0; }
-  .social-media .four {
-    background: url("$socialMedia") -114px 0; }
+  .social-media div.one {
+    background: url("/images/social-media.png") 0 0; }
+  .social-media div.two {
+    background: url("/images/social-media.png") -38px 0; }
+  .social-media div.three {
+    background: url("/images/social-media.png") -76px 0; }
+  .social-media div.four {
+    background: url("/images/social-media.png") -114px 0; }
