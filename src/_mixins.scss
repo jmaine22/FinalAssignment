@@ -47,3 +47,36 @@
     background-color: $white;
     margin:0;
 }
+@mixin fig($image) {
+    width:400px;
+    height: 190px;
+    background:url($image) no-repeat 0 50px;
+    float: left;
+    display: block;
+    margin: 0;
+}
+@mixin unorderList {
+    list-style-type:none;
+    margin-top:95px;
+}
+@mixin list {
+    display:inline;
+    font-size:0.8em;
+    margin-right:10px;
+}
+@mixin anchor {
+    color:$navigationA;
+    text-decoration:none;
+    letter-spacing:-0.01em;
+}
+@mixin anchorhover {
+    color: $white;
+}
+
+@mixin headlines {
+    width: 100%;
+    height: 130px;
+    background: $backgrounc-colorThree;
+    text-align: center;
+    margin: 0 auto;
+}
