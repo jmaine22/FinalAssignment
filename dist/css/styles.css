@@ -33,18 +33,39 @@ nav a {
 nav a:hover {
   color: #FFF; }
 
-.headline {
+#headline {
   width: 100%;
   height: 130px;
   background: #F25C43;
   text-align: center;
   margin: 0 auto; }
-  .headline h1 {
+  #headline h1 {
     color: #FFF;
     font-size: 2.5em;
     font-weight: 100;
     height: 130px;
     padding-top: 50px; }
+
+#content {
+  width: 940px;
+  margin: 20px auto; }
+  #content h3 {
+    color: #666;
+    font-size: 2em;
+    font-weight: 400; }
+  #content #products {
+    width: 460px;
+    float: left; }
+    #content #products img {
+      float: left;
+      margin-right: 20px; }
+    #content #products article {
+      margin-bottom: 40px; }
+    #content #products h4 {
+      line-height: 1em; }
+  #content #testimonials {
+    width: 460px;
+    float: right; }
 
 body {
   background: url("../images/bg.gif");
@@ -67,22 +88,22 @@ footer {
   color: #FFF;
   padding-top: 50px; }
 
-.social-media {
+#social-media {
   margin: 0 auto;
   width: 165px; }
-  .social-media div {
+  #social-media div {
     float: left;
     margin-right: 5px; }
-  .social-media a {
+  #social-media a {
     display: block;
     width: 36px;
     height: 36px;
     text-indent: -9999px; }
-  .social-media div.one {
+  #social-media #one {
     background: url("../images/social-media.png") 0 0; }
-  .social-media div.two {
+  #social-media #two {
     background: url("../images/social-media.png") -38px 0; }
-  .social-media div.three {
+  #social-media #three {
     background: url("../images/social-media.png") -76px 0; }
-  .social-media div.four {
+  #social-media #four {
     background: url("../images/social-media.png") -114px 0; }

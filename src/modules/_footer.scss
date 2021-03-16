@@ -4,7 +4,7 @@
 footer {
     @include footerStrut;
 }
-.social-media {
+#social-media {
     @include socialMedia;
         div{
             @include divStrut;
@@ -12,16 +12,16 @@ footer {
         a {
             @include socialAnchor;
         }
-        div.one {
+        #one {
             @include socialImageOne('../images/social-media.png');
         }
-        div.two {
+        #two {
             @include socialImageTwo('../images/social-media.png');
         }
-        div.three {
+        #three {
             @include socialImageThree('../images/social-media.png');
         }
-        div.four {
+        #four {
             @include socialImageFour('../images/social-media.png');
         }
 

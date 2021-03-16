@@ -80,3 +80,31 @@
     text-align: center;
     margin: 0 auto;
 }
+
+@mixin contentHolder {
+    width: 940px;
+    margin: 20px auto;
+}
+@mixin contentHeaderThree {
+    color: $header-three;
+    font-size: 2em;
+    font-weight: 400;
+}
+@mixin productsHolder {
+    width: 460px;
+    float: left;
+}
+@mixin productsImg {
+    float:left;
+    margin-right: 20px;
+}
+@mixin productsArticle {
+    margin-bottom: 40px;
+}
+@mixin  productsHeaderFour {
+    line-height: 1em;
+}
+@mixin testimonials {
+    width: 460px;
+    float: right;
+}
