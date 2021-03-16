@@ -108,6 +108,56 @@ footer {
   .social-media .four {
     background: url("../../images/social-media.png") -114px 0; }
 
+@media (max-width: 959px) {
+  main {
+    width: 768; }
+  figure {
+    width: inherit;
+    height: 140px;
+    float: none;
+    background-position: center; }
+  nav {
+    width: inherit;
+    height: 50px;
+    float: none;
+    text-align: center; }
+  nav ul {
+    margin-top: 0; }
+  nav ul li {
+    font-size: 1em;
+    margin: 0 10px; }
+  header h1 {
+    font-size: 3em; }
+  header h2 {
+    font-size: 1.5em; }
+  #content {
+    width: inherit; }
+  #content #products, #content #testimonials {
+    width: 46%;
+    margin: 0 2%; } }
+
+@media (max-width: 767px) {
+  main {
+    width: 460px; }
+  nav ul li {
+    font-size: 0.8em;
+    margin: 0 5px; }
+  header h1 {
+    font-size: 2em; }
+  header h2 {
+    font-size: 1em; }
+  header img {
+    margin-bottom: 100px; }
+  header h3 {
+    font-size: 1.5em; }
+  #headline h1 {
+    font-size: 2em;
+    padding-top: 50px; }
+  #content #products, #content #testimonials {
+    width: 96%;
+    margin: 0 2%;
+    float: none; } }
+
 @media (max-width: 459px) {
   main {
     width: 300px; }
@@ -115,7 +165,7 @@ footer {
     background-size: contain;
     height: 100px; }
   nav {
-    margin-bottom: 40px; }
+    margin-bottom: 40px !important; }
   select {
     width: 95%; }
   #headline h1 {
@@ -141,25 +191,3 @@ footer {
   footer p, footer img {
     float: none;
     margin: 0; } }
-
-@media (max-width: 767px) {
-  main {
-    width: 460px; }
-  nav ul li {
-    font-size: 0.8em;
-    margin: 0 5px; }
-  header h1 {
-    font-size: 2em; }
-  header h2 {
-    font-size: 1em; }
-  header img {
-    margin-bottom: 100px; }
-  header h3 {
-    font-size: 1.5em; }
-  #headline h1 {
-    font-size: 2em;
-    padding-top: 50px; }
-  #content #products, #content #testimonials {
-    width: 96%;
-    margin: 0 2%;
-    float: none; } }
