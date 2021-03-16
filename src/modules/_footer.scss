@@ -13,16 +13,16 @@ footer {
             @include socialAnchor;
         }
         .one {
-            @include socialImageOne('../../images/social-media.png');
+            @include socialImageOne($socialMedia);
         }
         .two {
-            @include socialImageTwo('../../images/social-media.png');
+            @include socialImageTwo($socialMedia);
         }
         .three {
-            @include socialImageThree('../../images/social-media.png');
+            @include socialImageThree($socialMedia);
         }
         .four {
-            @include socialImageFour('../../images/social-media.png');
+            @include socialImageFour($socialMedia);
         }
 
 }
