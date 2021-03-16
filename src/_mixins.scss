@@ -108,3 +108,8 @@
     width: 460px;
     float: right;
 }
+@mixin break($length) {
+    @media (max-width: $length){
+        @content;
+    }
+}
