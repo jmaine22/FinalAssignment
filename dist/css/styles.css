@@ -87,23 +87,22 @@ footer {
   text-align: center;
   color: #FFF;
   padding-top: 50px; }
-
-#social-media {
-  margin: 0 auto;
-  width: 165px; }
-  #social-media div {
-    float: left;
-    margin-right: 5px; }
-  #social-media a {
-    display: block;
-    width: 36px;
-    height: 36px;
-    text-indent: -9999px; }
-  #social-media #one {
-    background: url("../images/social-media.png") 0 0; }
-  #social-media #two {
-    background: url("../images/social-media.png") -38px 0; }
-  #social-media #three {
-    background: url("../images/social-media.png") -76px 0; }
-  #social-media #four {
-    background: url("../images/social-media.png") -114px 0; }
+  footer .social-media {
+    margin: 0 auto;
+    width: 165px; }
+    footer .social-media div {
+      float: left;
+      margin-right: 5px; }
+    footer .social-media a {
+      display: block;
+      width: 36px;
+      height: 36px;
+      text-indent: -9999px; }
+    footer .social-media #one {
+      background: url("../images/social-media.png") 0 0; }
+    footer .social-media #two {
+      background: url("../images/social-media.png") -38px 0; }
+    footer .social-media #three {
+      background: url("../images/social-media.png") -76px 0; }
+    footer .social-media #four {
+      background: url("../images/social-media.png") -114px 0; }

@@ -3,26 +3,26 @@
 }
 footer {
     @include footerStrut;
-}
-#social-media {
-    @include socialMedia;
-        div{
-            @include divStrut;
-        }
-        a {
-            @include socialAnchor;
-        }
-        #one {
-            @include socialImageOne('../images/social-media.png');
-        }
-        #two {
-            @include socialImageTwo('../images/social-media.png');
-        }
-        #three {
-            @include socialImageThree('../images/social-media.png');
-        }
-        #four {
-            @include socialImageFour('../images/social-media.png');
-        }
-
+    .social-media {
+        @include socialMedia;
+            div{
+                @include divStrut;
+            }
+            a {
+                @include socialAnchor;
+            }
+            #one {
+                @include socialImageOne('../images/social-media.png');
+            }
+            #two {
+                @include socialImageTwo('../images/social-media.png');
+            }
+            #three {
+                @include socialImageThree('../images/social-media.png');
+            }
+            #four {
+                @include socialImageFour('../images/social-media.png');
+            }
+    
+    }
 }
